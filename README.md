@@ -1,16 +1,19 @@
-# hackberry_code_test
+# Flutter movie app
+Flutter app, will diplay movies and on selection display a detail page containing more information about the movie.
+Such as rating, title, genre, description and more.
+Application is cross-platform based. Can run on android and IOS.
+Emphasis on this project was to create a good looking UI and small animations.
 
-A new Flutter project.
+## Movie-API
+* [All movies](https://playground.devskills.co/api/rest/movie-app/movies)
+* [Movies by Id](https://playground.devskills.co/api/rest/movie-app/movies/1)
 
-## Getting Started
+## Run application
+Application is run from MovieListView.dart. 
+Application will get movie data as a future builder handles the request.
+Future builder will display a loading indicator until all data is fetched.
 
-This project is a starting point for a Flutter application.
+## Author
+Aidin Ghassemloi.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
